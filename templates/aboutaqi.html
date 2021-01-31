@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	     <title>Air Quality Prediction System</title>
+		 <meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width,
+		 initial-scale=1">
+		 
+		 <link rel="stylesheet" type="text/css" href="css/style.css">
+		 
+		 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+		 crossorigin="anonymous">
+	     
+         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+	      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	 
+    <body>
+	  
+	 
+	  <div class="row">
+				   <nav id="navbar-example2" class="navbar navbar-dark bg-dark ">
+				   <div class="container">
+
+                      <a class="navbar-brand" href="#">Air Quality Prediction System</a>
+                        <ul class="nav nav-pills"> 
+                       <li class="nav-item"> 
+                          <a class="nav-link " href="index.html">Home</a>
+                     </li> 
+					  
+                      <li class="nav-item"> 
+                       <a class="nav-link active"  aria-current="page" href="aboutaqi.html">About AQI</a>  
+                     </li>  
+				    <li class="nav-item">
+                    <a class="nav-link" href="predictaqi.html">Predict AQI</a>  
+                     </li>  
+				     <li class="nav-item"> 
+                       <a class="nav-link text-capitalize" href="ourteam.html">Our Team</a>  
+                    </li>  
+    
+                       </ul> 
+                     </div>
+ 
+                 </nav>
+       </div>
+
+		
+		
+	<section class="main_heading my-5">
+             <div class="text-center">
+	         <h1 class="display-2">About AQI</h1>
+		     <hr class="w-25 mx-auto" />
+	         </div>   
+	 
+      
+             <div class="container">	  
+               <div class="row">
+		           
+				  	<div class="col-lg-6 col-md-6 col-20 col-xxl-6"> 
+				        <figure>  
+					       <img src="images/aqi.jpg" alt="about images" class="rounded float-end">
+					    </figure> 
+                    </div>					   
+				   <div class="col-lg-6 col-md-6 col-20 col-xxl-6">
+				       <h3><mark>Introduction</mark></h3> 
+					     <div> 
+				            <p>
+							<ul>
+							Air pollution is a major problem and should not be ignored.
+							Most of the population is not even aware of the colossal harm caused by the air they breathe everyday.
+                            Here you can predict air quality easily by taking only 4 values So2,No2,RSPM,SPM. This Prediction model is build by analyze the Indian air quality data of various years.
+							The Air Quality Index (AQI)  is a measure of how air pollution affects one's health within a short time period.
+							The purpose of the AQI is to help people know how the local air quality impacts their health. 
+							The higher the AQI value, the greater the level of air pollution and the greater the health concerns.
+					        
+							</ul>
+							
+							</p>
+													 
+                           					
+					     <br>
+						 </div> 
+			  </div>
+			  </div>
+			  <div class="container bg-light">
+			      <div class="row">
+				  <div id="navbar-example" style="position: relative;" >
+				  
+				  
+				   <nav id="navbar-example2" class="navbar navbar-dark bg-dark px-3">
+  <a class="navbar-brand" href="#">AQI</a>
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#fat">What is AQI?</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#mdo">How is AQI calculated?</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">More</a>
+      <ul class="dropdown-menu dropdown-menu-end">
+       
+        <li><a class="dropdown-item" href="#two">Objectives of Air Quality Index (AQI)</a></li>
+        
+        <li><a class="dropdown-item" href="#three">Who is most at risk from air pollution?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0"
+   style="height: 300px; overflow-y: scroll;">
+  <h4 id="fat" class="bg-warning"><mark>What is AQI?</mark></h4>
+  <p>
+  <ul>
+	   The air quality index (AQI) is an index for reporting air quality on a daily basis.
+	   It is a measure of how air pollution affects one's health within a short time period. The purpose of the
+	   AQI is to help people know how the local air quality impacts their health.
+	   The Environmental Protection Agency (EPA) calculates the AQI for five major air pollutants,
+	   for which national air quality standards have been established to safeguard public health.
+ <br>
+         1. Ground-level ozone<br>
+         2. particulate matter (PM2.5/pm 10)<br>
+         3. Carbon Monoxide<br>
+         4. Sulfur dioxide<br>
+         5. Nitrogen dioxide<br>
+         6.SPM<br>
+	     7.RSPM<br>
+        The higher the AQI value, the greater the level of air pollution and the greater the health concerns.
+        The concept of AQI has been widely used in many developed countries for over the last three decades. 
+        AQI quickly disseminates air quality information in real-time.
+        </ul>
+        <br>
+     </p>
+           <h4 id="mdo"class="bg-warning"><mark>How is AQI calculated?</mark></h4>
+            <p>
+               <ul>
+              Different countries use different point scales to report air quality. For instance, the United States uses a 500 point scale, 
+               wherein rating between 0 and 50 is considered good. 
+             Rating between 301 to 500 range is deemed hazardous. 
+             India too follows that the 500 point scale. <br>
+            Every day monitors record concentrations of the major pollutants. 
+             These raw measurements are converted into a separate AQI value for each pollutant (ground-level ozone, particle pollution, carbon monoxide, and sulfur dioxide) using standard formulae developed by EPA. The highest of 
+             these AQI values are reported as the AQI value for that day.
+  </ul>
+  </p>
+  
+  <h4 id="two" class="bg-info"><mark>Objectives of Air Quality Index (AQI)</mark></h4>
+  <p>
+  <ul>
+     <li>Comparing air quality conditions at different locations/cities.
+     </li>
+      <li>It also helps in identifying faulty standards and inadequate monitoring programmes.
+      </li>
+      <li>AQI helps in analysing the change in air quality (improvement or degradation).
+      </li>
+      <li>AQI informs the public about environmental conditions. It is especially useful for people suffering from illnesses aggravated or caused by air pollution.
+       </li>
+  </ul>
+  
+  
+  </p>
+  <h4 id="three" class="bg-info"><mark>Who is most at risk from air pollution?</mark></h4>
+  <p>
+  <ul>
+  — People with lung diseases, such as asthma, chronic bronchitis, and emphysema.<br>
+ 
+— Children, including teenagers.<br>
+ 
+— Active people of all ages who exercise or work extensively outdoors.<br>
+ 
+— Some healthy people are more sensitive to ozone.<br>
+ 
+  </ul>
+  
+  
+  </p>
+</div>
+</div>
+				  </div>
+			  </div>
+              </section>
+
+		<footer class="bg-secondary  text-white"><br>
+		
+        <div class="text-center">
+		  
+		   <a  href="https://github.com/Palak-171" class="fa fa-github">
+		  </a>
+		  <a href="mailto:www.lovekaranverma33@gmail.com" class="fa fa-google">
+		  <br>
+		  </a>
+		 
+	
+		
+       <p>Copyright 2021, @bhangotrapalak
+	       @lovekaranverma</p>	 
+		   	  </div>
+	  </footer>
+	     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script> 
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> 
+	 <script type="text/javascript">
+	     var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="tooltip"]'))
+		var tooptipList = tooltipTrriggerList.map(function(tooltipTriggerEl){
+         return new bootstrap.Tooltip(tooltipTriggerEl)})
+        var scrollSpy = new bootstrap.ScrollSpy(document.body,{
+        target: '#navbar-example'})
+        </script>		
+	 
+	 
+	 
+     </body>
+</html>	 
